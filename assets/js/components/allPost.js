@@ -11,9 +11,9 @@ export function renderAllPost(targetId){
         </div>
             <div class="flex items-center space-x-2 rtl:space-x-reverse">
             <span id="rewiew" class="text-gray-500">بازدید 12222</span>
-            <span id="rewiew" class="text-gray-500 mx-4">323232❤️</span>
+            // <span id="rewiew" class="text-gray-500 mx-4">323232❤️</span>
             <div  class="flex -space-x-2 rtl:space-x-reverse">
-            <img src="https://i.pravatar.cc/32?img=1" class="w-8 h-8 rounded-full border-2 border-white" />
+            <img src="https://i.pravatar.cc/32?img=1" class="w-8 h-8 rounded-full border-2 border-white " />
             <img src="https://i.pravatar.cc/32?img=2" class="w-8 h-8 rounded-full border-2 border-white" />
             <img src="https://i.pravatar.cc/32?img=3" class="w-8 h-8 rounded-full border-2 border-white" />
             <div class="w-8 h-8 rounded-full bg-gray-200 text-xs flex item s-center justify-center border-2 border-white">+90</div>
@@ -29,3 +29,4 @@ export function renderAllPost(targetId){
     const target = document.getElementById(targetId);
     if(target) target.appendChild(allPost)
 }
+//post haye safhe asli 

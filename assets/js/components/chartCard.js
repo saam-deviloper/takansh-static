@@ -24,3 +24,4 @@ export function createChartCard({ title, type, data, options }) {
   
     return wrapper;
   }
+  // vase dashboarde na forum

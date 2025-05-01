@@ -12,3 +12,4 @@ export function createCard({ title, value, icon ,color}) {
     `;
     return card;
   }
+  //vase dashboarde na forum
