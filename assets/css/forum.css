@@ -170,27 +170,20 @@ body {
     justify-content: space-between;
     @media (max-width: 570px) {
       display: none;
-      /* flex-wrap: wrap; */
     }
-    /* align-items: space-between; */
-    /* margin: 30px 20px 20px 22px; */
   }
   .author-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     @media (max-width: 570px) {
-      /* display: none; */
-      /* flex-wrap: wrap; */
+     
     }
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
   }
   .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* margin-left: 10px; */
   }
   .author-info {
     display: flex;
