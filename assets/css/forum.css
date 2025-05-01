@@ -250,7 +250,18 @@ body {
   border-radius: 14px;
   display: flex;
 }
+.t-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    @media(max-width: 570px) {
+      flex-direction: column;
+      /* padding: 0px 0px 0px 0px; */
+    }
+}
 .topic-continer {
+  /* display: flex;   */
   width: 100%;
 }
 .topic-all-post h2 {
