@@ -14,43 +14,56 @@
     <link rel="stylesheet" href="../../assets/css/createElement.css" />
     <link rel="stylesheet" href="../../assets/css/forum.css" />
     <link rel="stylesheet" href="../../assets/css/forumCategory.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=border_color" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <header class="bg-red-900">فروم تمام پست ها</header>
-    <main class="h-screen w-screen bg-slate-500 p-8">
-      <div class="flex flex-col md:flex-row w-[100%] h-auto p-[20px] bg-white rounded-[14px] gap-2">
-        <section class="flex w-full md:h-[83px] sm:h-auto rounded-lg items-center ">
-          <div class="block text-[14px] font-lg text-center text-slate-900">
-            <p class="text-[14px] font-bold text-slate-900 wrap text-right">
-                متا در سال  ۲۰۲۵  چند دستگاه پوشیدنـــــی مجهز به هوش مصنوعــــــــی جدید عرضه می‌کند
-            </p>
-          </di>
-          <span
-            class="bg-orange-100 block text-orange-600 text-[12px] m-2 px-2 py-1 max-w-max h-auto rounded-[12px] text-center font-bold"
-          >
-            مزایای فریلنسری
-          </span>
-        </section>
-        <section
-          class="flex bg-white w-full  md:h-[83px] sm:h-auto rounded-lg items-center "
-        >
-        <span id="rewiew" class="text-gray-500">12222 بازدید</span>
-        <span id="rewiew" class="text-gray-500 mx-4">323232❤️</span>
-        <div class="flex -space-x-2 rtl:space-x-reverse">
-            <img src="https://i.pravatar.cc/32?img=1" class="w-8 h-8 rounded-full border-2 border-white" />
-            <img src="https://i.pravatar.cc/32?img=2" class="w-8 h-8 rounded-full border-2 border-white" />
-            <img src="https://i.pravatar.cc/32?img=3" class="w-8 h-8 rounded-full border-2 border-white" />
-            <div class="w-[26px] h-[26px] rounded-[8px] bg-gray-200 text-xs flex items-center justify-center border-2 border-white">
-              +90
-            </div>
-          </div>
-          <span id="rewiew" class="text-gray-600 mx-2">56 نظر</span>
-              <button id="topic-btn" class="border border-gray-300 px-4 py-1 rounded-lg ml-2" style="background-color:#EDF0EF">ویرایش</button>
-              <button id="close-btn" class="bg-red-500 text-white px-3 py-1 rounded-lg">✕</button>
-            
-        </section>
-      </div>
-    </main>
+    <main class="h-screen w-screen bg-slate-500 p-4">
+     <div class="flex flex-col md:flex-row w-[100%] h-auto p-[20px] bg-white rounded-[14px] gap-2">
+         <section class="flex w-full md:h-[83px] sm:h-auto rounded-lg items-center ">
+             <div class="block text-[14px] font-lg text-center text-slate-900 truncate">
+                 <p class="text-[14px] font-bold text-slate-900 no-wrap text-right truncate">
+                     متا در سال ۲۰۲۵ چند دستگاه پوشیدنـــــی مجهز به هوش مصنوعــــــــی جدید عرضه می‌کند
+                 </p>
+                 </di>
+                 <span
+                     class="bg-orange-100 block text-orange-600 text-[12px] m-2 px-2 py-1 max-w-max h-auto rounded-[12px] text-center font-bold">
+                     مزایای فریلنسری
+                 </span>
+         </section>
+         <section class="flex bg-white w-full  md:h-[83px] sm:h-auto rounded-lg items-center ">
+             <span id="rewiew" class="text-gray-500">12222 بازدید</span>
+             <span id="rewiew" class="text-gray-500 mx-4">323232❤️</span>
+             <div class="flex -space-x-2 rtl:space-x-reverse max-sm:hidden">
+                 <img src="https://i.pravatar.cc/32?img=1" class="w-8 h-8 rounded-full border-2 border-white" />
+                 <img src="https://i.pravatar.cc/32?img=2" class="w-8 h-8 rounded-full border-2 border-white" />
+                 <img src="https://i.pravatar.cc/32?img=3" class="w-8 h-8 rounded-full border-2 border-white" />
+                 <div
+                     class="w-[26px] h-[26px] rounded-[8px] bg-gray-200 text-xs flex items-center justify-center border-2 border-white">
+                     +90
+                 </div>
+             </div>
+             <span id="rewiew" class="text-gray-600 mx-2">56 نظر</span>
+             <button id="topic-btn" class="border border-gray-300 px-4 py-1 rounded-lg ml-2 hidden sm:block "
+                 style="background-color:#EDF0EF">ویرایش</button>
+             <button id="topic-btn"
+                 class="border border-gray-300 h-[24px] w-[32px] P-2 rounded-[8px] ml-2 hidden max-sm:block "
+                 style="background-color:#EDF0EF">
+                 <span class="material-symbols-outlined" aria-hidden="true">
+                     border_color
+                 </span>
+             </button>
+
+             <button id="close-btn" class="bg-red-500 text-white text-center w-[24px] h-[24px] rounded-[8px]">
+                 <span class="material-symbols-outlined" aria-hidden="true">
+                     x
+                 </span>
+             </button>
+
+         </section>
+     </div>
+ </main>
   </body>
 </html>
